@@ -55,7 +55,7 @@ let button = UIButton.init(type: .custom)
 完美。解决了。。
         
 
-##几个重点。
+## 几个重点。
 button 设置不同状态的问题需要满足下面条件：
 1.  adjustsImageWhenHighlighted，adjustsImageWhenDisabled属性设置false
 2.  button 的type必须是custom。（在封装过程使用kvc解决之）
